@@ -67,8 +67,23 @@ nav#menu li {
     background-color: #dddddd;
     padding: 5px;  /* Espaço dentro dos botões*/
     margin: 2px;  /* Espaço fora dos botões */
+    transition: background-color 1s; /* Quando passa com o mouse, demora 1s para que a cor cinza preencha a caixa. */
+}
+
+nav#menu li:hover {
+    background-color: #606060; /* Quando passa com o mouse, deixa a caixa cinza */
 }
 
 nav#menu h1 {
-    display: none;
+    display: none; /* Remove, apenas do navedor, mas não do codigo,  o titulo menu que não é link */
+}
+
+nav#menu a {
+    color: black; /* Muda a cor da fonte*/
+    text-decoration: none; /* Remove a linha inferior do link*/
+}
+
+nav#menu a:hover {
+    color: #ffffff; /* Muda a cor dos links quando passa com o mouse*/
+    text-decoration: underline; /* Quando passa o mouse, o link fica sublinhado */
 }
