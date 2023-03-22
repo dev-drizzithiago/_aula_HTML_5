@@ -12,7 +12,7 @@
 
 body.corpo_principal {
     color: black;
-    background-color: rgb(63, 17, 100);
+    background-color: rgb(144, 126, 160);
 }
 
 div#interface {
@@ -138,12 +138,23 @@ nav#menu a:hover {
 
 
 /*Estrutura do corpo*/
-section#corpo {
+section#corpo_estrutura {
     display: block; /* Para o corpo ser mostrado como bloco*/
-    width: 600px; /* Define a largura do bloco*/
+    width: 450px; /* Define a largura do bloco*/
+    float: left; /*Faz o corpo flutue para o lado esquerdo*/
+    border-right: 1px/*Indica a largura da linha*/ solid/*Tipo da linha*/ #606060/*Cor da linha*/;
+    padding: 30px; /*Espaço dentro do corpo*/
 }
 
 aside#lateral {
     display: block; /* Para o corpo ser mostrado como bloco*/
-    width: 400px; /* Define a largura do bloco*/
+    width:350px; /* Define a largura do bloco*/
+    float: right; /* Faz o corpo flutuar para o lado direito*/
+}
+
+footer#rodapeh {
+    clear: both;
+    border-top: 1px/*Indica a largura da linha*/ solid/*Tipo da linha*/ #606060/*Cor da linha*/;
+    padding: 10px;
+    text-align: center; 
 }
