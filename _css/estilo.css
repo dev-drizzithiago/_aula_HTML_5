@@ -2,7 +2,7 @@
 
 body.corpo_principal {
     color: black;
-    background-color: rgb(188, 190, 190);
+    background-color: rgb(63, 17, 100);
 }
 
 div#interface {
@@ -15,12 +15,20 @@ padding: 10px 10px 10px 10px; /* Espaço dentro da margin | É possivel colocar 
 
 }
 
-header#cabecalho img#icone {
+header#cabecalho img#icone { /* imagem linha 15 index*/ 
     position: absolute;
     left: 700px;
     top: 40px;
 
 }   
+
+header#cabecalho {
+    border-bottom: 1px /*largura da borda*/ #606060 /* Cor da borda */ solid /* Formato da borda*/;
+    height: 150px; /* Altura do cabeçalho*/
+    background: url("../_imagens/glass-logo-peq.jpg"); /* "URL é o endereço de onde o arquivo esta */
+
+
+}
 
 p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -29,33 +37,29 @@ p {
     text-decoration: underline"        
 }
 
-p {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 20px;
-}
-
 
 /* Formatação fotos com legenda */
 figure.foto-legenda {
     position: relative;
-    border: 8px solid white;
+    border: 8px solid rgb(19, 16, 16);
     box-shadow: 1px, 1px, 4px, black;
 }
 
 figure.foto-legenda img {
     height: 50%;
     width: 50%;
+    box-shadow: 1px 1px 1px 2px rgba(0,0,0,0.3);
 }
 
-figure.foto-legenda figcaption {
-    opacity: 0;
+figure.foto-legenda figcaption { /* Formatação de quando se passa o mouse em cima da imagem */
+    opacity: 0; /* Valor de tramsparencia*/
     position: absolute;
-    top: 0px;
-    background-color: rgba(0,0,0, 0.4);
-    color: white;
+    top: -2px;
+    background-color: rgba(0,0,0, 0.4); /* Cor da pelicula, quando se passa o mouse, e 40% de transparencia*/ 
+    color: white; /* Cor do texto */ 
     width: 50%;
     height: 100%;
-    padding: 0px;
+    padding: 0px; /* Espaço dentro da foto*/
     box-sizing: 10px ;
     transition: opacity 1s;
 }
