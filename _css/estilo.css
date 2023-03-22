@@ -155,6 +155,11 @@ aside#lateral {
 footer#rodapeh {
     clear: both;
     border-top: 1px/*Indica a largura da linha*/ solid/*Tipo da linha*/ #606060/*Cor da linha*/;
-    padding: 10px;
+    padding: 10px;    
+}
+
+footer#rodapeh p {
     text-align: center; 
+    padding: 0px;
+    border: 1px #606060;
 }
