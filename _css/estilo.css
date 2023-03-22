@@ -15,6 +15,20 @@ body.corpo_principal {
     background-color: rgb(144, 126, 160);
 }
 
+table#tabelaspec {
+    border: 1px solid #000000;
+    border-spacing: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table#tabelaspec td {
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px;
+    text-align: center;
+    vertical-align: top;
+}
+
 div#interface {
 
 width: 900px; /*Delimita o corpo do site*/
