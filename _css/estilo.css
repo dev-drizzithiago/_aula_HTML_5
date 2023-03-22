@@ -15,7 +15,7 @@ padding: 10px 10px 10px 10px; /* Espaço dentro da margin | É possivel colocar 
 
 }
 
-header#cabecalho img.icone {
+header#cabecalho img#icone {
     position: absolute;
     left: 700px;
     top: 40px;
