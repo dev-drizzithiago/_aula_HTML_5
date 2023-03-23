@@ -29,6 +29,33 @@ table#tabelaspec td {
     vertical-align: top;
 }
 
+table#tabelaspec td.colunESQ { /*Para indentificar class é preciso usar o "."(Ponto)*/
+    color: #ffffff;
+    background-color: #606060;
+    vertical-align: top;
+    font-weight: bold;
+    text-align: right;
+}
+
+table#tabelaspec td.colunRIGHT {
+    background-color: #cac2c2;
+}
+
+table#tabelaspec caption {
+    color: #888888;
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+table#tabelaspec caption span {
+    color: #000000;
+    display: block;
+    float: right;
+    font-size: 8pt;
+    margin-top: 10px;
+
+}
+
 div#interface {
 
 width: 900px; /*Delimita o corpo do site*/
