@@ -11,9 +11,20 @@
 
 
 body.corpo_principal {
+    font-family: Arial, Helvetica, sans-serif;
     color: black;
     background-color: rgb(144, 126, 160);
 }
+
+a {
+    color: darkgray;
+    text-decoration-line: none;
+}
+
+a:hover {
+    text-decoration-line: underline;
+}
+
 
 table#tabelaspec {
     border: 1px solid #000000;
@@ -202,7 +213,7 @@ header#cabecalho-artigo h1 {
     margin-bottom: 0px;
 }
 
-header#cabecalho h3.direita {
+.direita {
     text-align: right;
 }
 
@@ -215,7 +226,7 @@ header#cabecalho-artigo h2 {
 
 header#cabecalho-artigo h3 {
     font-size: 12;
-    color: #cac2c2;
+    color: #a8a2a2;
     font-style: italic;
 }
 
@@ -223,6 +234,24 @@ aside#lateral {
     display: block; /* Para o corpo ser mostrado como bloco*/
     width:350px; /* Define a largura do bloco*/
     float: right; /* Faz o corpo flutuar para o lado direito*/
+    background-color: #dddddd;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+    padding: 10px;
+    margin-top: 10px;
+}
+
+aside#lateral h1 {
+    font-family: FonteLogo;
+    font-size: 20pt;
+    color: #606060;
+    margin-top: 0px;
+}
+
+aside#lateral h2 {
+    background-color: #606060;
+    font-size: 15;
+    color: #ffffff;
+    padding: 5px;
 }
 
 footer#rodapeh {
