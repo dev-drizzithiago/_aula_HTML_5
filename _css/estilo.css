@@ -187,6 +187,38 @@ section#corpo_estrutura {
     padding: 30px; /*Espaço dentro do corpo*/
 }
 
+article#noticia_principal h2 { /* */
+    font-size: 12;
+    color: #606060;
+    background-color: #dddddd;
+    padding: 5px 0px 5px 10px;
+    margin: 10px 0px 10px 0px;   
+}
+
+header#cabecalho-artigo h1 {
+    font-family: FonteLogo, sans-serif;
+    font-size: 20pt;
+    color: #606060;
+    margin-bottom: 0px;
+}
+
+header#cabecalho h3.direita {
+    text-align: right;
+}
+
+header#cabecalho-artigo h2 {
+    font-size: 10;
+    color: #888888;
+    background-color: #ffffff;
+    margin-top: 0px;
+}
+
+header#cabecalho-artigo h3 {
+    font-size: 12;
+    color: #cac2c2;
+    font-style: italic;
+}
+
 aside#lateral {
     display: block; /* Para o corpo ser mostrado como bloco*/
     width:350px; /* Define a largura do bloco*/
