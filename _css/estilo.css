@@ -69,7 +69,7 @@ table#tabelaspec caption span {
 
 div#interface {
 
-width: 900px; /*Delimita o corpo do site*/
+width: 1000px; /*Delimita o corpo do site*/
 background-color: #ffffff; /* Interface ficara com o fundo brando */
 margin: -20px /*Margem superior*/ auto /*10px*//*Margem Esquerda*/ 10px /*Margem Inferior*/ auto /*10px*//*Margem da Direita*/;
 box-shadow: 0px 0px 10px rgba(0,0,0, 0.4);
@@ -79,14 +79,14 @@ padding: 10px 10px 10px 10px; /* Espaço dentro da margin | É possivel colocar 
 
 header#cabecalho img#icone { /* imagem linha 15 index*/ 
     position: absolute;
-    left: 700px;
-    top: 80px;
+    left: 940px;
+    top: 40px;
 
 }   
 
 header#cabecalho {
     border-bottom: 1px /*largura da borda*/ #606060 /* Cor da borda */ solid /* Formato da borda*/;
-    height: 200px; /* Altura do cabeçalho*/
+    height: 100px; /* Altura do cabeçalho*/
     background: url("../_imagens/glass-logo-peq.jpg") no-repeat 0px/*Descolamento lateral*/ 140px/*Deslocamento vertical*/; /* "URL é o endereço de onde o arquivo esta */ /*"no-repeat" coloca apenas uma vez a imagem */
 }
 
@@ -192,7 +192,7 @@ nav#menu a:hover {
 /*Estrutura do corpo*/
 section#corpo_estrutura {
     display: block; /* Para o corpo ser mostrado como bloco*/
-    width: 450px; /* Define a largura do bloco*/
+    width: 505px; /* Define a largura do bloco*/
     float: left; /*Faz o corpo flutue para o lado esquerdo*/
     border-right: 1px/*Indica a largura da linha*/ solid/*Tipo da linha*/ #606060/*Cor da linha*/;
     padding: 30px; /*Espaço dentro do corpo*/
@@ -232,12 +232,12 @@ header#cabecalho-artigo h3 {
 
 aside#lateral {
     display: block; /* Para o corpo ser mostrado como bloco*/
-    width:350px; /* Define a largura do bloco*/
+    width: 350px; /* Define a largura do bloco*/
     float: right; /* Faz o corpo flutuar para o lado direito*/
     background-color: #dddddd;
     box-shadow: 1px 1px 1px rgba(0,0,0,0.3);
-    padding: 10px;
-    margin-top: 10px;
+    padding: 40px;
+    margin-top: 20px;
 }
 
 aside#lateral h1 {
@@ -251,7 +251,7 @@ aside#lateral h2 {
     background-color: #606060;
     font-size: 15;
     color: #ffffff;
-    padding: 5px;
+    padding: 10px;
 }
 
 footer#rodapeh {
