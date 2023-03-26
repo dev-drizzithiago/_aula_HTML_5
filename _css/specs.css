@@ -1,0 +1,17 @@
+a {
+    color: darkgray;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+
+
+body.corpo_principal {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    background-color: grey;
+}
