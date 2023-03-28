@@ -68,6 +68,7 @@ nav#menu li {
     background-color: #dddddd;
     padding: 5px;
     margin: 2px;
+    transition: background-color 1s;
 }
 
 nac#menu li:hover {
