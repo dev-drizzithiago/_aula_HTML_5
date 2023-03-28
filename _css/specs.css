@@ -60,7 +60,6 @@ nav#menu ul {
     position: absolute;
     top: -20px;
     left: 500px;
-    transition: backgroud-color 1s;
 }
 
 nav#menu li {
@@ -71,8 +70,17 @@ nav#menu li {
     transition: background-color 1s;
 }
 
-nac#menu li:hover {
+nav#menu a {
+    color: black;
+}
+
+nav#menu li:hover {
     background-color: #606060;
+}
+
+nav#menu a:hover {
+    color: #ffffff;
+    text-decoration: none;
 }
 
 footer#rodapeh {

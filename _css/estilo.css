@@ -10,12 +10,12 @@ body.corpo_principal {
     background-color: rgb(144, 126, 160);
 }
 
-a {
+a { 
     color: darkgray;
     text-decoration-line: none;
 }
 
-a:hover {
+a:hover {   /* Muda a forma do texto quando coloca o mouse*/
     text-decoration-line: underline;
     color: black;
 }
