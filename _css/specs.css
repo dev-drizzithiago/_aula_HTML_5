@@ -5,91 +5,18 @@
     src: url("../_fonts/computer-font.ttf");
 }
 
-
-a {
-    color: darkgray;
-    text-decoration: none;
+section#conteudo {
+    width: 1000px; /*Largura*/
+    margin: auto;
 }
 
-a:hover {
-    text-decoration: underline;
-    color: black;
+iframe#frame-spec {
+    width: 430px; /* Largura */
+    height: 280px; /* Altura */
+    border: none; /* Move a borda */
+    overflow: hidden; /* Move o conteudo */
 }
 
-
-
-body.corpo_principal {
-    font-family: Arial, Helvetica, sans-serif;
-    color: black;
-    background-color: grey;    
-}
-
-
-div#interface {
-    width: 1000px;
-    background-color: #ffffff;
-    margin: -20px auto 10px auto;
-    box-shadow: 2px 2px 3px  black;
-    padding: 10px 10px 10px 10px;
-}
-
-nav#cabecalho {
-    border-bottom: 1px #606060 solid;
-    height: 100px;
-    background: url('../_imagens/glass-logo-peq.jpg') no-repeat 10px 140px;
-    margin-top: 0px;
-}
-
-nav#cabecalho h1 {
-    font-family: FonteLogo, sans-serif;
-    size: 30pt;
-    color: #606060;
-    text-shadow: 1px;
-    padding: 0px;
-    margin-bottom: 0px;
-
-}
-
-nav#menu {
-    display: block;
-}
-
-nav#menu ul {
-    list-style: none;
-    text-transform: uppercase;
-    position: absolute;
-    top: -20px;
-    left: 500px;
-}
-
-nav#menu li {
-    display: inline-block;
-    background-color: #dddddd;
-    padding: 5px;
-    margin: 2px;
-    transition: background-color 1s;
-}
-
-nav#menu a {
-    color: black;
-}
-
-nav#menu li:hover {
-    background-color: #606060;
-}
-
-nav#menu a:hover {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-footer#rodapeh {
-    clear: both;
-    border: 1px solid #606060;
-    padding: 10px;
-}
-footer#rodapeh p {
-    text-align: center;
-    padding: 0px;
-    border: 1px #606060;
+iframe#frame-spec::-webkit-scrollbar {  /* Esconde a barra de rolagem */
+    display: none;
 }
