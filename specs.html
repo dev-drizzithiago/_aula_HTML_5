@@ -17,15 +17,13 @@
                         <h2> Revolução do Google está chegando</h2>
                     </hgroup>
 
-                    <img id="icone" src="_imagens\glass-oculos-preto-peq.png"/>
+                    <img id="icone" src="_imagens\especificacoes.png"/>
                     <nav id="menu">
 
                         <h1> Menu Principal </h1>
 
                         <ul type="I">
                             <li onmouseover="mudaFoto('_imagens/home.png')" onmouseout="mudaFoto('_imagens/glass-oculos-preto-peq.png')"><a href="index.html" target="_self"> Home </a></li>
-
-                            <li onmouseover="mudaFoto('_imagens/especificacoes.png')" onmouseout="mudaFoto('_imagens/glass-oculos-preto-peq.png')"><a href="specs.html" target="_self"> Especificações </a></li>
 
                             <li onmouseover="mudaFoto('_imagens/fotos.png')" onmouseout="mudaFoto('_imagens/glass-oculos-preto-peq.png')"><a href="fotos.html"target="_self"> Fotos </a></li>
 
@@ -50,15 +48,7 @@
                         <p>Clica em qualquer área destacada da imagem para ter mais informações sobre os recursos do Google Glass.
                         Qualquer ponto vermelho vai te levar a um lugar cheio de novas informações.</p>
                         <section id="conteudo">
-                            <img src="_imagens/glass-esquema-marcado.jpg" usemap="meu_mapa"/> <!-- opção para mapear-->
-
-                            <map name="meu_mapa">
-                                <area shape="rect" coords="179,202,270,260" href="google-glass.html#tela" target="janela"/>  <!-- Retangulo-->
-                                <area shape="poly" coords="28,143,83,216,84,249,27,169" href="google-glass.html" target="janela">
-                                <area shape="circle" coords="157,242,12" href="google-glass.html#camera" target="janela"/>
-                                <area shape="circle" coords="73,52,12" href="google-glass.html#gadgets" target="janela"/>
-                            </map>
-
+                            <img id="formatacao" src="_imagens/glass-esquema-marcado.jpg" height="280" width="500" alt="glass esquema marcado" usemap="meu_mapa"/> <!-- opção para mapear-->
                             <iframe src="google-glass.html" name="janela" id="frame-spec"></iframe>
                         </section>                 
                     </article>
@@ -68,5 +58,11 @@
                 <p>Facebook | Twitter </p>
             </footer>
         </div>
+    <map name="meu_mapa">
+    <area shape="rect" coords="180,200,270,260" href="google-glass.html#tela" alt="tela" target="janela"/>  
+    <area shape="poly" coords="28,143,83,216,84,249,27,169" href="google-glass.html#sensores" alt="sensores" target="janela"/>
+    <area shape="circle" coords="157,242,12" href="google-glass.html#camera" alt="camera" target="janela"/>
+    <area shape="circle" coords="73,52,12" href="google-glass.html#gadgets" alt="bateria" target="janela"/>
+    </map>
 </body>
 </html>
