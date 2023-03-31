@@ -171,6 +171,7 @@ nav#menu li {
 
 nav#menu li:hover {
     background-color: #606060; /* Quando passa com o mouse, deixa a caixa cinza */
+    background-size: 120% 120% ;
 }
 
 nav#menu h1 {
