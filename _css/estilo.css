@@ -1,5 +1,9 @@
-10px
-
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@font-face {
+    font-family: FonteLogo;
+    src: url("../_fonts/computer-font.ttf");
+}
 /*OBSERVAÇÃO*/
 /* TODO OBJETO ELE POSSUI UM ESPAÇO INTERNO E UM ESPAÇO EXTERNO. É POSSIVEL CONFIGURA COM OS COMANDO "PEDDING" */
 

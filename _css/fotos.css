@@ -1,0 +1,51 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@font-face {
+    font-family: FonteLogo;
+    src: url("../_fonts/computer-font.ttf");
+}
+
+ul#album-fotos {
+    width: 700px; /*Largura*/
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+    list-style: none;
+}
+
+ul#album-fotos li {
+    float: left;
+    width: 200px; /*Largura*/
+    height: 200px; /*altura*/
+    margin: 10px;
+    border: 1px solid black;
+    background-color: white;
+    box-shadow: 1px 1px 10px rgba(0,0,0,.5);
+}
+ul#album-fotos li span {
+    opacity: 0;
+}
+
+ul#album-fotos li span:hover {
+    
+    opacity: 1;
+}
+
+ul#album-fotos li#foto_01 {
+    background: url("../_imagens/galeria-01.jpg") no-repeat; /*"no-repeat" coloca apenas uma vez a imagem*/
+}
+ul#album-fotos li#foto_02 {
+    background: url("../_imagens/galeria-02.jpg") no-repeat; /*"no-repeat" coloca apenas uma vez a imagem*/
+}
+ul#album-fotos li#foto_03 {
+    background: url("../_imagens/galeria-03.jpg") no-repeat; /*"no-repeat" coloca apenas uma vez a imagem*/
+}
+ul#album-fotos li#foto_04 {
+    background: url("../_imagens/galeria-04.jpg") no-repeat; /*"no-repeat" coloca apenas uma vez a imagem*/
+}
+ul#album-fotos li#foto_05 {
+    background: url("../_imagens/galeria-05.jpg") no-repeat; /*"no-repeat" coloca apenas uma vez a imagem*/
+}
+ul#album-fotos li#foto_06 {
+    background: url("../_imagens/galeria-06.jpg") no-repeat; /*"no-repeat" coloca apenas uma vez a imagem*/
+}
