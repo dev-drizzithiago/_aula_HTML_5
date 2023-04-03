@@ -30,3 +30,17 @@ audio#filme {
     top: 600px; /* Almente o valor para baixar na tela.*/
     width: 500px;
 }
+
+
+footer#rodapeh media_rodapeh {
+    clear: both;
+    border-top: 1px/*Indica a largura da linha*/ solid/*Tipo da linha*/ #606060/*Cor da linha*/;
+    padding: 10px;
+    top: 900px;  
+}
+
+footer#rodapeh p {
+    text-align: center; 
+    padding: 0px;
+    border: 1px #606060;
+}
