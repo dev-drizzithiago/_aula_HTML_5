@@ -20,10 +20,10 @@ audio#musica {
     width: 300px;
 }
 
-audio#filme {
+video#filme {
     display: block;
     position: relative;
-    left: 1000px;
-    top: 1000px; /* Almente o valor para baixar na tela.*/
-    width: 500px;
+    left: 70px;
+    top: 10px; /* Almente o valor para baixar na tela.*/
+    width: 440px;
 }
