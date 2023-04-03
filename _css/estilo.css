@@ -68,7 +68,7 @@ table#tabelaspec caption span {
 
 div#interface {
 
-width: 1000px; /*Delimita o corpo do site*/
+width: 1085px; /*Delimita o corpo do site*/
 background-color: #ffffff; /* Interface ficara com o fundo brando */
 margin: -20px /*Margem superior*/ auto /*10px*//*Margem Esquerda*/ 10px /*Margem Inferior*/ auto /*10px*//*Margem da Direita*/;
 box-shadow: 0px 0px 10px rgba(0,0,0, 0.4);

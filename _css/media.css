@@ -8,11 +8,8 @@
 div#tv-audio {
     width: 900px;
     height: 500px;
-    margin: 100px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    background: url("../_imagens/radio-tv.png") no-repeat;
-    background-size: auto;
+    margin: auto;
+    background: url("../_imagens/radio-tv.png");    
 }
 
 audio#musica {
@@ -26,21 +23,7 @@ audio#musica {
 audio#filme {
     display: block;
     position: relative;
-    left: 600px;
-    top: 600px; /* Almente o valor para baixar na tela.*/
+    left: 1000px;
+    top: 1000px; /* Almente o valor para baixar na tela.*/
     width: 500px;
-}
-
-
-footer#rodapeh media_rodapeh {
-    clear: both;
-    border-top: 1px/*Indica a largura da linha*/ solid/*Tipo da linha*/ #606060/*Cor da linha*/;
-    padding: 10px;
-    top: 900px;  
-}
-
-footer#rodapeh p {
-    text-align: center; 
-    padding: 0px;
-    border: 1px #606060;
 }
