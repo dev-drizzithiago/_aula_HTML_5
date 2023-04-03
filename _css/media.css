@@ -5,9 +5,28 @@
     src: url("../_fonts/computer-font.ttf");
 }
 
-div#tv-radio {
+div#tv-audio {
     width: 900px;
-    height: 580px;
-    margin: auto;
-    background: url("../_imagens/radio-tv.png");
+    height: 500px;
+    margin: 100px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background: url("../_imagens/radio-tv.png") no-repeat;
+    background-size: auto;
+}
+
+audio#musica {
+    display: block;
+    position: relative;
+    left: 570px;
+    top: 500px; /* Almente o valor para baixar na tela.*/
+    width: 300px;
+}
+
+audio#filme {
+    display: block;
+    position: relative;
+    left: 600px;
+    top: 600px; /* Almente o valor para baixar na tela.*/
+    width: 500px;
 }
