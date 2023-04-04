@@ -53,7 +53,7 @@
 <form>
 <fieldset id="usuario"> <!--"fildset cria um borda "-->
 <legend> Identificação do Usuário </legend> <!--Legend cria um titulo na borda-->
-    <p>Nome: <input type="text" name="tNome" id="cNome" size="20" maxlength="30" placeholder="Digite o nome completo"/> </p>  
+    <p> <label for="cNome"> Nome: </label> <input type="text" name="tNome" id="cNome" size="20" maxlength="30" placeholder="Digite o nome completo"/> </p>  
     <!--Caso não coloque nada no "type" o HTML vai deixar padrão o "text"-->
     <!--o "nome é o nome do objeto de input"-->
     <!--"maxlength é o maximo de caracteres que pode ser digitado na caixa de texto"-->
@@ -62,21 +62,22 @@
     <p>E-mail: <input type="email" nome="tMail" id="cMail" size="20" maxlength="30" placeholder="Digite seu e-mail"/> </p>
 
     <fieldset id="sexo"> 
-        <legend>Sexo</legend>
-        <input type="radio" nama="tSexo" id="cMan"/> <label for="=cMan"> Masculino </label> 
+        <legend>Sexo</legend>        
+        <input type="radio" nama="tSexo" id="cMan"/> <label for="=cMan"> Masculino </label><br> <!--Para deixar a opção de "radio marcado, basta colocar a opção "checked, logo depois do id-->
+
         <input type="radio" name="tSexo" id="cFem"/> <label for="cFem"> Feminino </label>
         <!--O "label" ajuda a selecionar o campo de input, quando clica no nome, ele simplesmente selecionar o input-->
     </fieldset>
 
-    <P>Data de Nascimento:</P>
+    <P>Data de Nascimento: <input type="date" name="tData" id="cData"></P>
 </fieldset>
 
 <fieldset id="endereco"> <!--"fildset cria um borda "-->
 <legend>Endereço do Usuário</legend> <!--Legend cria um titulo na borda-->
-    Logradouro:
-    Número:
-    Estado:
-    Cidade:
+    <p>Logradouro: <input type="text" name="tRua" id="cRua" size="20" maxlength="80" placeholder="Rua, Av, Trav, ..."/> </p>
+    <p>Número: <input type="number" name="tNum" id="CNum" min="0" max="99999"> </p>
+    <p>Estado:</p>
+    <p>Cidade:</p>
 </fieldset>
 
 <fieldset id="mensagem"> <!--"fildset cria um borda "-->
