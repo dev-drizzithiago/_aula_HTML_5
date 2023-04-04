@@ -50,33 +50,51 @@
     </article>
 </section>
 
-Identificação do Usuário
-    Nome:
-    Senha:
-    E-mail:
-    Sexo:
-        - Masculino
-        - Feminino
-    Data de Nascimento:
+<form>
+<fieldset id="usuario"> <!--"fildset cria um borda "-->
+<legend> Identificação do Usuário </legend> <!--Legend cria um titulo na borda-->
+    <p>Nome: <input type="text" name="tNome" id="cNome" size="20" maxlength="30" placeholder="Digite o nome completo"/> </p>  
+    <!--Caso não coloque nada no "type" o HTML vai deixar padrão o "text"-->
+    <!--o "nome é o nome do objeto de input"-->
+    <!--"maxlength é o maximo de caracteres que pode ser digitado na caixa de texto"-->
+    <!--"placeholder" é uma especi de dica que dar para o usuario-->
+    <p>Senha: <input type="password" nome="tSenha" id="cSenha" size="20" maxlength="30" placeholder="Digite sua senha"/> </p>
+    <p>E-mail: <input type="email" nome="tMail" id="cMail" size="20" maxlength="30" placeholder="Digite seu e-mail"/> </p>
 
-Endereço do Usuário
+    <fieldset id="sexo"> 
+        <legend>Sexo</legend>
+        <input type="radio" nama="tSexo" id="cMan"/> <label for="=cMan"> Masculino </label> 
+        <input type="radio" name="tSexo" id="cFem"/> <label for="cFem"> Feminino </label>
+        <!--O "label" ajuda a selecionar o campo de input, quando clica no nome, ele simplesmente selecionar o input-->
+    </fieldset>
+
+    <P>Data de Nascimento:</P>
+</fieldset>
+
+<fieldset id="endereco"> <!--"fildset cria um borda "-->
+<legend>Endereço do Usuário</legend> <!--Legend cria um titulo na borda-->
     Logradouro:
     Número:
     Estado:
     Cidade:
+</fieldset>
 
-Mensagem do Usuário
+<fieldset id="mensagem"> <!--"fildset cria um borda "-->
+<legend>Mensagem do Usuário</legend> <!--Legend cria um titulo na borda-->
     Grau de Urgência:
     Mensagem:
+</fieldset>
 
-Quero um Google Glass
+<fieldset id="pedido"> <!--"fildset cria um borda "-->
+<legend>Quero um Google Glass</legend> <!--Legend cria um titulo na borda-->
     Gostaria de adquirir um Google Glass quando disponível
     Cor:
     Quantidade:
     Preço Total: R$
-
+</fieldset>
 
 [BOTÃO ENVIAR]
+</form>
 
 <footer id="rodapeh">
     <p> 2013 - by Gustavo Guanabara </p>
