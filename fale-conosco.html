@@ -50,8 +50,9 @@
     </article>
 </section>
 
-<form method=""> <!-- Metodo "get" é mais veloz, porem menos seguro-->
-                <!-- O metodo "post" ele é um pouco mais lento, mas é bem mais seguro -->
+<form method="post" id="fContato" action="mailto:drizzithdrow@gmail.com"> <!--Todos os dados adicionado pelo usuario são mandados para o email-->
+    <!-- Metodo "get" é mais veloz, porem menos seguro, get é ideal para buscas -->
+                <!-- O metodo "post" ele é um pouco mais lento, mas é bem mais seguro, post é ideal para senhas, cartões de creditos-->
 <fieldset id="usuario"> <!--"fildset cria um borda "-->
 <legend> Identificação do Usuário </legend> <!--Legend cria um titulo na borda-->
     <p> <label for="cNome"> Nome: </label> <input type="text" name="tNome" id="cNome" size="20" maxlength="30" placeholder="Digite o nome completo"/> </p>  
@@ -77,8 +78,10 @@
 <legend>Endereço do Usuário</legend> <!--Legend cria um titulo na borda-->
     <p>Logradouro: <input type="text" name="tRua" id="cRua" size="20" maxlength="80" placeholder="Rua, Av, Trav, ..."/> </p>
     <p>Número: <input type="number" name="tNum" id="CNum" min="0" max="99999"> </p>
-    <p>Estado:</p>
-    <p>Cidade:</p>
+    <p> <label for="cEst"> Estado:</label>
+    <select name="tEst" id="cEst"> </select></p>
+
+    <p><label for="cCid"> Cidade:</label></p>
 </fieldset>
 
 <fieldset id="mensagem"> <!--"fildset cria um borda "-->
