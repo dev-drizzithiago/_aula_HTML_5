@@ -66,7 +66,6 @@
     <fieldset id="sexo"> 
         <legend>Sexo</legend>        
         <input type="radio" nama="tSexo" id="cMan"/> <label for="=cMan"> Masculino </label><br> <!--Para deixar a opção de "radio marcado, basta colocar a opção "checked, logo depois do id-->
-
         <input type="radio" name="tSexo" id="cFem"/> <label for="cFem"> Feminino </label>
         <!--O "label" ajuda a selecionar o campo de input, quando clica no nome, ele simplesmente selecionar o input-->
     </fieldset>
@@ -77,18 +76,29 @@
 <fieldset id="endereco"> <!--"fildset cria um borda "-->
 <legend>Endereço do Usuário</legend> <!--Legend cria um titulo na borda-->
     <p>Logradouro: <input type="text" name="tRua" id="cRua" size="20" maxlength="80" placeholder="Rua, Av, Trav, ..."/> </p>
-    <p>Número: <input type="number" name="tNum" id="CNum" min="0" max="99999"> </p>
+    <p><label for="cNum"> Número: </label><input type="number" name="tNum" id="CNum" min="0" max="99999"> </p>
     <p> <label for="cEst"> Estado:</label>
     <select name="tEst" id="cEst">
         <option>Escolha um estado</option>
-        <option value="RJ">Rio de Janeiro</option>
-        <option value="SP">São Paulo</option>
-        <option value="MG">Minas Gerais</option>
-        <option value="PR">Paraná</option>
-        <option value="SC">Santo Caratina</option>
-        <option value="RS">Rio Grande do Sul</option>
+        <optgroup label="Região sudeste">
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="SP">São Paulo</option>
+            <option value="MG">Minas Gerais</option>
+        </optgroup>
+        <optgroup label="Região SUL">
+            <option value="PR">Paraná</option>
+            <option value="SC">Santo Caratina</option>
+            <option value="RS">Rio Grande do Sul</option>
+        </optgroup>
     </select></p>
-    <p><label for="cCid"> Cidade:</label></p>
+
+    <p><label for="cCid"> Cidade: </label> <input type="text" name="tCid" id="cCid" size="20" placeholder="Sua Cidade..." list="cidades">
+    <datalist id="cidades">
+        <option values="'Rio de Janeiro"></option>
+        <option values="Nova Iguaçu"></option>
+        <option values="Niterói"></option>
+        <option value="Belfor Roxo"></option>
+    </datalist></p>
 </fieldset>
 
 <fieldset id="mensagem"> <!--"fildset cria um borda "-->
