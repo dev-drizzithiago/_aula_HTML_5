@@ -50,9 +50,10 @@
     </article>
 </section>
 
-<form method="post" id="fContato" action="mailto:drizzithdrow@gmail.com"> <!--Todos os dados adicionado pelo usuario são mandados para o email-->
+<form method="post" id="fContato" action="mailto:drizzithdrow@gmail.com"> 
+    <!--Todos os dados adicionado pelo usuario são mandados para o email-->
     <!-- Metodo "get" é mais veloz, porem menos seguro, get é ideal para buscas -->
-                <!-- O metodo "post" ele é um pouco mais lento, mas é bem mais seguro, post é ideal para senhas, cartões de creditos-->
+    <!-- O metodo "post" ele é um pouco mais lento, mas é bem mais seguro, post é ideal para senhas, cartões de creditos-->
 <fieldset id="usuario"> <!--"fildset cria um borda "-->
 <legend> Identificação do Usuário </legend> <!--Legend cria um titulo na borda-->
     <p> <label for="cNome"> Nome: </label> <input type="text" name="tNome" id="cNome" size="20" maxlength="30" placeholder="Digite o nome completo"/></p>  
@@ -112,13 +113,19 @@
 
 <fieldset id="pedido"> <!--"fildset cria um borda "-->
 <legend> Quero um Google Glass </legend> <!--Legend cria um titulo na borda-->
-    <p><label for="tAdq" id="cAdq"> Gostaria de adquirir um Google Glass quando disponível </label></p>
-    <p><label for="tCor" id="cCor"> Cor: </label></p>
-    <p><label for="tQdd" id="tQdd"> Quantidade: </label></p>
-    <p><label for="tVlr" id="cVlr"> Preço Total: R$ </label></p>
-</fieldset>
+    <p><input type="checkbox" name="tPed" id="tPed" checked>
+        <label for="tPed" id="cPed"> Gostaria de adquirir um Google Glass quando disponível </label></p>
 
-[BOTÃO ENVIAR]
+    <p><label for="tCor" id="cCor"> Cor: </label>
+        <input type="color" name="tCor" id="xCor" value="#ffffff"></p>
+
+    <p><label for="tQtd" id="tQtd"> Quantidade: </label>
+    <input type="number" name="tQtd" id="cQtd" min="0" max="5" value="1"></p>
+
+    <p><label for="tTot" id="cTot"> Preço Total: R$ </label>
+    <input type="text" name="tTot" id="cTot" placeholder="Total a Pagar"readonly></p> <!--"readonly" é destinado para mostrar apenas a leitura-->
+</fieldset>
+    <input type="image" src="_imagens/botao-enviar.png"/>
 </form>
 
     <footer id="rodapeh">
