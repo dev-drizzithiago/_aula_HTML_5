@@ -50,7 +50,8 @@
     </article>
 </section>
 
-<form>
+<form method=""> <!-- Metodo "get" é mais veloz, porem menos seguro-->
+                <!-- O metodo "post" ele é um pouco mais lento, mas é bem mais seguro -->
 <fieldset id="usuario"> <!--"fildset cria um borda "-->
 <legend> Identificação do Usuário </legend> <!--Legend cria um titulo na borda-->
     <p> <label for="cNome"> Nome: </label> <input type="text" name="tNome" id="cNome" size="20" maxlength="30" placeholder="Digite o nome completo"/> </p>  
