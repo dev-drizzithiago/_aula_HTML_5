@@ -54,19 +54,19 @@
     <!-- Metodo "get" é mais veloz, porem menos seguro, get é ideal para buscas -->
                 <!-- O metodo "post" ele é um pouco mais lento, mas é bem mais seguro, post é ideal para senhas, cartões de creditos-->
 <fieldset id="usuario"> <!--"fildset cria um borda "-->
-<legend> Identificação do Usuário </legend> <!--Legend cria um titulo na borda-->
-    <p> <label for="cNome"> Nome: </label> <input type="text" name="tNome" id="cNome" size="20" maxlength="30" placeholder="Digite o nome completo"/> </p>  
+<legend>Identificação do Usuário</legend> <!--Legend cria um titulo na borda-->
+    <p> <label for="cNome">Nome:</label> <input type="text" name="tNome" id="cNome" size="20" maxlength="30" placeholder="Digite o nome completo"/></p>  
     <!--Caso não coloque nada no "type" o HTML vai deixar padrão o "text"-->
     <!--o "nome é o nome do objeto de input"-->
     <!--"maxlength é o maximo de caracteres que pode ser digitado na caixa de texto"-->
     <!--"placeholder" é uma especi de dica que dar para o usuario-->
-    <p><label for="cSenha"> Senha: </label> <input type="password" nome="tSenha" id="cSenha" size="20" maxlength="30" placeholder="Digite sua senha"/> </p>
-    <p><label for="cMail"> E-mail: </label><input type="email" nome="tMail" id="cMail" size="20" maxlength="30" placeholder="Digite seu e-mail"/> </p>
+    <p><label for="cSenha">Senha:</label><input type="password" nome="tSenha" id="cSenha" size="20" maxlength="30" placeholder="Digite sua senha"/></p>
+    <p><label for="cMail">E-mail:</label><input type="email" nome="tMail" id="cMail" size="20" maxlength="30" placeholder="Digite seu e-mail"/></p>
 
     <fieldset id="sexo"> 
         <legend>Sexo</legend>        
-        <input type="radio" nama="tSexo" id="cMan"/> <label for="=cMan"> Masculino </label><br> <!--Para deixar a opção de "radio marcado, basta colocar a opção "checked, logo depois do id-->
-        <input type="radio" name="tSexo" id="cFem"/> <label for="cFem"> Feminino </label>
+        <input type="radio" name="tSexo" id="cMan"/><label for="cMan">Masculino</label><br> <!--Para deixar a opção de "radio marcado, basta colocar a opção "checked, logo depois do id-->
+        <input type="radio" name="tSexo" id="cFem"/><label for="cFem">Feminino</label>
         <!--O "label" ajuda a selecionar o campo de input, quando clica no nome, ele simplesmente selecionar o input-->
     </fieldset>
 
@@ -75,9 +75,9 @@
 
 <fieldset id="endereco"> <!--"fildset cria um borda "-->
 <legend>Endereço do Usuário</legend> <!--Legend cria um titulo na borda-->
-    <p> <label for="cRua">Logradouro:</label><input type="text" name="tRua" id="cRua" size="20" maxlength="80" placeholder="Rua, Av, Trav, ..."/></p>
-    <p><label for="cNum"> Número: </label><input type="number" name="tNum" id="CNum" min="0" max="99999"> </p>
-    <p> <label for="cEst"> Estado:</label>
+    <p><label for="cRua">Logradouro:</label><input type="text" name="tRua" id="cRua" size="20" maxlength="80" placeholder="Rua, Av, Trav, ..."/></p>
+    <p><label for="cNum">Número:</label><input type="number" name="tNum" id="CNum" min="0" max="99999"> </p>
+    <p><label for="cEst">Estado:</label>
     <select name="tEst" id="cEst">
         <option>Escolha um estado</option>
         <optgroup label="Região sudeste">
@@ -92,7 +92,7 @@
         </optgroup>
     </select></p>
 
-    <p><label for="cCid"> Cidade: </label> <input type="text" name="tCid" id="cCid" size="20" placeholder="Sua Cidade..." list="cidades">
+    <p><label for="cCid">Cidade:</label><input type="text" name="tCid" id="cCid" size="20" placeholder="Sua Cidade..." list="cidades">
     <datalist id="cidades">
         <option value="Rio de Janeiro"></option>
         <option value="Nova Iguaçu"></option>
@@ -121,12 +121,10 @@
 [BOTÃO ENVIAR]
 </form>
 
-<footer id="rodapeh">
-    <fildset id="CC_cabecalho">
-        <p>2013 - by Gustavo Guanabara</p>
-        <p>Facebook | Twitter </p>
-    </fildset>
-</footer>
+    <footer id="rodapeh">
+    <p>2013 - by Gustavo Guanabara</p>
+    <p>Facebook | Twitter </p>
+    </footer>
 
 </div>
 </body>
