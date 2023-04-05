@@ -232,10 +232,10 @@ header#cabecalho-artigo h3 {
 
 aside#lateral {
     display: block; /* Para o corpo ser mostrado como bloco*/
-    width: 350px; /* Define a largura do bloco*/
+    width: 430px; /* Define a largura do bloco*/
     float: right; /* Faz o corpo flutuar para o lado direito*/
     background-color: #dddddd;
-    box-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+    box-shadow: 2px 2px 3px rgba(0,0,0,0.3);
     padding: 40px;
     margin-top: 20px;
 }
