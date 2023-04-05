@@ -54,45 +54,45 @@
     <!-- Metodo "get" é mais veloz, porem menos seguro, get é ideal para buscas -->
                 <!-- O metodo "post" ele é um pouco mais lento, mas é bem mais seguro, post é ideal para senhas, cartões de creditos-->
 <fieldset id="usuario"> <!--"fildset cria um borda "-->
-<legend>Identificação do Usuário</legend> <!--Legend cria um titulo na borda-->
-    <p> <label for="cNome">Nome:</label> <input type="text" name="tNome" id="cNome" size="20" maxlength="30" placeholder="Digite o nome completo"/></p>  
+<legend> Identificação do Usuário </legend> <!--Legend cria um titulo na borda-->
+    <p> <label for="cNome"> Nome: </label> <input type="text" name="tNome" id="cNome" size="20" maxlength="30" placeholder="Digite o nome completo"/></p>  
     <!--Caso não coloque nada no "type" o HTML vai deixar padrão o "text"-->
     <!--o "nome é o nome do objeto de input"-->
     <!--"maxlength é o maximo de caracteres que pode ser digitado na caixa de texto"-->
     <!--"placeholder" é uma especi de dica que dar para o usuario-->
-    <p><label for="cSenha">Senha:</label><input type="password" nome="tSenha" id="cSenha" size="20" maxlength="30" placeholder="Digite sua senha"/></p>
-    <p><label for="cMail">E-mail:</label><input type="email" nome="tMail" id="cMail" size="20" maxlength="30" placeholder="Digite seu e-mail"/></p>
+    <p><label for="cSenha"> Senha: </label><input type="password" nome="tSenha" id="cSenha" size="20" maxlength="30" placeholder="Digite sua senha"/></p>
+    <p><label for="cMail"> E-mail: </label><input type="email" nome="tMail" id="cMail" size="20" maxlength="30" placeholder="Digite seu e-mail"/></p>
 
     <fieldset id="sexo"> 
         <legend>Sexo</legend>        
-        <input type="radio" name="tSexo" id="cMan"/><label for="cMan">Masculino</label><br> <!--Para deixar a opção de "radio marcado, basta colocar a opção "checked, logo depois do id-->
-        <input type="radio" name="tSexo" id="cFem"/><label for="cFem">Feminino</label>
+        <input type="radio" name="tSexo" id="cMan"/><label for="cMan"> Masculino </label><br> <!--Para deixar a opção de "radio marcado, basta colocar a opção "checked, logo depois do id-->
+        <input type="radio" name="tSexo" id="cFem"/><label for="cFem"> Feminino </label>
         <!--O "label" ajuda a selecionar o campo de input, quando clica no nome, ele simplesmente selecionar o input-->
     </fieldset>
 
-    <P>Data de Nascimento: <input type="date" name="tData" id="cData"></P>
+    <P> Data de Nascimento: <input type="date" name="tData" id="cData"></P>
 </fieldset>
 
 <fieldset id="endereco"> <!--"fildset cria um borda "-->
-<legend>Endereço do Usuário</legend> <!--Legend cria um titulo na borda-->
-    <p><label for="cRua">Logradouro:</label><input type="text" name="tRua" id="cRua" size="20" maxlength="80" placeholder="Rua, Av, Trav, ..."/></p>
-    <p><label for="cNum">Número:</label><input type="number" name="tNum" id="CNum" min="0" max="99999"> </p>
-    <p><label for="cEst">Estado:</label>
+<legend> Endereço do Usuário </legend> <!--Legend cria um titulo na borda-->
+    <p><label for="cRua"> Logradouro: </label><input type="text" name="tRua" id="cRua" size="20" maxlength="80" placeholder="Rua, Av, Trav, ..."/></p>
+    <p><label for="cNum"> Número: </label><input type="number" name="tNum" id="CNum" min="0" max="99999"> </p>
+    <p><label for="cEst"> Estado: </label>
     <select name="tEst" id="cEst">
-        <option>Escolha um estado</option>
+        <option> Escolha um estado </option>
         <optgroup label="Região sudeste">
-            <option value="RJ">Rio de Janeiro</option>
-            <option value="SP">São Paulo</option>
-            <option value="MG">Minas Gerais</option>
+            <option value="RJ"> Rio de Janeiro </option>
+            <option value="SP"> São Paulo </option>
+            <option value="MG"> Minas Gerais </option>
         </optgroup>
         <optgroup label="Região SUL">
-            <option value="PR">Paraná</option>
-            <option value="SC">Santo Caratina</option>
-            <option value="RS">Rio Grande do Sul</option>
+            <option value="PR"> Paraná </option>
+            <option value="SC"> Santo Caratina </option>
+            <option value="RS"> Rio Grande do Sul </option>
         </optgroup>
     </select></p>
 
-    <p><label for="cCid">Cidade:</label><input type="text" name="tCid" id="cCid" size="20" placeholder="Sua Cidade..." list="cidades">
+    <p><label for="cCid"> Cidade: </label><input type="text" name="tCid" id="cCid" size="20" placeholder="Sua Cidade..." list="cidades">
     <datalist id="cidades">
         <option value="Rio de Janeiro"></option>
         <option value="Nova Iguaçu"></option>
@@ -102,20 +102,20 @@
 </fieldset>
 
 <fieldset id="mensagem"> <!--"fildset cria um borda "-->
-<legend>Mensagem do Usuário</legend> <!--Legend cria um titulo na borda-->
-    <p><label for="tUrg" id="cUrg">Grau de Urgência:</label> Min
+<legend> Mensagem do Usuário </legend> <!--Legend cria um titulo na borda-->
+    <p><label for="tUrg" id="cUrg"> Grau de Urgência: </label> Min
     <input type="range" nome="tUrg" id="cUrg" min="0" max="10" step="2">Max</p>
 
-    <p><label for="tMsg" id="cMsg">Mensagem:</label>
+    <p><label for="tMsg" id="cMsg"> Mensagem: </label>
         <textarea name="tMsg" id="cMsg" cols="30" rows="10"></textarea></p> <!--"textarea" é uma caixa de texto, que mostra varias linhas.-->
 </fieldset>
 
 <fieldset id="pedido"> <!--"fildset cria um borda "-->
-<legend>Quero um Google Glass</legend> <!--Legend cria um titulo na borda-->
-    <p><label for="tAdq" id="cAdq">Gostaria de adquirir um Google Glass quando disponível</label></p>
-    <p><label for="tCor" id="cCor">Cor:</label></p>
-    <p><label for="tQdd" id="tQdd">Quantidade:</label></p>
-    <p><label for="tVlr" id="cVlr">Preço Total: R$ </label></p>
+<legend> Quero um Google Glass </legend> <!--Legend cria um titulo na borda-->
+    <p><label for="tAdq" id="cAdq"> Gostaria de adquirir um Google Glass quando disponível </label></p>
+    <p><label for="tCor" id="cCor"> Cor: </label></p>
+    <p><label for="tQdd" id="tQdd"> Quantidade: </label></p>
+    <p><label for="tVlr" id="cVlr"> Preço Total: R$ </label></p>
 </fieldset>
 
 [BOTÃO ENVIAR]
