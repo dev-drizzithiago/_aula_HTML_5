@@ -94,17 +94,20 @@
 
     <p><label for="cCid"> Cidade: </label> <input type="text" name="tCid" id="cCid" size="20" placeholder="Sua Cidade..." list="cidades">
     <datalist id="cidades">
-        <option values="'Rio de Janeiro"></option>
-        <option values="Nova Iguaçu"></option>
-        <option values="Niterói"></option>
+        <option value="Rio de Janeiro"></option>
+        <option value="Nova Iguaçu"></option>
+        <option value="Niterói"></option>
         <option value="Belfor Roxo"></option>
     </datalist></p>
 </fieldset>
 
 <fieldset id="mensagem"> <!--"fildset cria um borda "-->
 <legend>Mensagem do Usuário</legend> <!--Legend cria um titulo na borda-->
-    Grau de Urgência:
-    Mensagem:
+    <p><label for="tUrg" id="cUrg">Grau de Urgência:</label> Min
+    <input type="range" nome="tUrg" id="cUrg" min="0" max="10" step="2">Max</p>
+
+    <p><label for="tMsg" id="cMsg">Mensagem:</label>
+        <textarea name="tMsg" id="cMsg" cols="30" rows="10"></textarea></p>
 </fieldset>
 
 <fieldset id="pedido"> <!--"fildset cria um borda "-->
