@@ -1,13 +1,22 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
+<!--CABEÇALHO-->
 <head>
-<meta charset="UTF-8">
-<title>Tudo sobre Google Glass</title>
-<link rel="stylesheet" type="text/css" href="_css/estilo.css"/>
-<link rel="stylesheet" type="text/css" href="_css/media.css"/>
+    <meta charset="UTF-8">
+    <title>Tudo sobre Google Glass</title>
+    <link rel="stylesheet" type="text/css" href="_css/estilo.css"/>
+    <link rel="stylesheet" type="text/css" href="_css/form.css"/>
+    <script src="_javascript/funcoes.js"></script>
+    <script>
+        function calc_tot() {
+            var qtd = parseInt(document.getElementById('cQtd').value);
+            tot = qtd * 1500;
+            document.getElementById('cTot').value = tot;
+        }
+    </script>
 </head>
 
-<script src="_javascript/funcoes.js"></script>
 
 <body class="corpo_principal">    
 <div id = "interface"> 
@@ -50,7 +59,7 @@
     </article>
 </section>
 
-<form method="post" id="fContato" action="mailto:drizzithdrow@gmail.com"> 
+<form method="post" id="fContato" action="mailto:drizzithdrow@gmail.com" oninput="calc_tot();"> 
     <!--Todos os dados adicionado pelo usuario são mandados para o email-->
     <!-- Metodo "get" é mais veloz, porem menos seguro, get é ideal para buscas -->
     <!-- O metodo "post" ele é um pouco mais lento, mas é bem mais seguro, post é ideal para senhas, cartões de creditos-->
@@ -120,7 +129,7 @@
         <input type="color" name="tCor" id="xCor" value="#ffffff"></p>
 
     <p><label for="tQtd" id="tQtd"> Quantidade: </label>
-    <input type="number" name="tQtd" id="cQtd" min="0" max="5" value="1"></p>
+    <input type="number" name="tQtd" id="cQtd" min="0" max="5" value="0"></p>
 
     <p><label for="tTot" id="cTot"> Preço Total: R$ </label>
     <input type="text" name="tTot" id="cTot" placeholder="Total a Pagar"readonly></p> <!--"readonly" é destinado para mostrar apenas a leitura-->
