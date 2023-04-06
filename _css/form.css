@@ -6,15 +6,16 @@
 }
 
 form {
-    width: 550px;
+    width: 650px;
     margin:auto;
+    border: 3px 3px 6px rgba(0, 0, 0, 0.5);
 }
 
 input, textarea {
     font-family: sans-serif;
     font-weight: normal; /* Para não ficar em negrito */
     font-size: 13pt;
-    background-color: rgba(255,255,255,.5);
+    background-color: rgba(255,255,255,.2);
 }
 
 input:hover, textarea:hover {
@@ -34,6 +35,10 @@ fieldset {
 }
 
 fieldset#sexo {
+    display: flex;
+    position: relative;
+    right: -79px;
+    padding: 5px;
     width: 110px; /* Largura */
     height: 60px; /* Altura */
 }
