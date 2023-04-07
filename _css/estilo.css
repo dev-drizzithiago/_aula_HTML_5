@@ -134,15 +134,15 @@ figure.foto-legenda figcaption { /* Formatação de quando se passa o mouse em c
     top: 0px;
     background-color: rgba(0,0,0, 0.6); /* Cor da pelicula, quando se passa o mouse, e 40% de transparencia*/ 
     color: white; /* Cor do texto */ 
-    width: 100%;
-    height: 100%;
+    width: 425px;
+    height: 239px;
     padding: 1px; /* Espaço dentro da foto*/
     box-sizing: border-box ;
     transition: opacity 1s;
 }
 
 figure.foto-legenda:hover figcaption{
-    opacity: 2;
+    opacity: 1;
 }
 
 
