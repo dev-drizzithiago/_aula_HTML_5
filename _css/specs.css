@@ -13,11 +13,11 @@ section#conteudo {
 iframe#frame-spec {
     width: 430px; /* Largura */
     height: 280px; /* Altura */
-    border: none; /* Move a borda */
-    overflow: hidden; /* Move o conteudo */
+    border: 1px; /* Move a borda */
+    overflow: auto; /* Move o conteudo */
 }
 
-iframe#frame-spec::-webkit-scrollbar {  /* Esconde a barra de rolagem */
+iframe#frame-spec::-webkit-scrollbar {
     display: none;
 }
 
