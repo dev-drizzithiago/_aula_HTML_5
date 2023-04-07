@@ -7,23 +7,23 @@
 
 div#tv-audio {
     width: 900px;
-    height: 500px;
+    height: 630px;
     margin: auto;
-    background: url("../_imagens/radio-tv.png");    
+    background: url("../_imagens/radio-tv.png") no-repeat 95% 95%;    
 }
 
 audio#musica {
     display: block;
     position: relative;
-    left: 570px;
-    top: 500px; /* Almente o valor para baixar na tela.*/
+    left: 573px;
+    top: 545px; /* Almente o valor para baixar na tela.*/
     width: 300px;
 }
 
 video#filme {
     display: block;
     position: relative;
-    left: 70px;
-    top: 10px; /* Almente o valor para baixar na tela.*/
-    width: 440px;
+    left: 83px;
+    top: 130px; /* Almente o valor para baixar na tela.*/
+    width: 450px;
 }

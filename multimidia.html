@@ -5,9 +5,10 @@
         <title> Tudo sobre Google Glass </title>
         <link rel="stylesheet" type="text/css" href="_css/estilo.css"/>  
         <link rel="stylesheet" type="text/css" href="_css/media.css"/> 
+        <script src="_javascript/funcoes.js"></script>
     </head>
 
-<script src="_javascript/funcoes.js"></script>
+
 
 <body class="corpo_principal">    
 <div id = "interface"> 
@@ -34,27 +35,32 @@
     </nav>
 </header>
 
-<section id="corpo_full"></section>
+<section id="corpo_full">
 <article id="noticia_principal">
-    <header id="cabecalho-artigo">
-        <hgroup>
-            <h3> Glass > Multimídia </h3>
-            <h1> Sons e Vídeos </h1>
-            <h2> por Gustavo Guanabara </h2>
-            <h3 class="direita"> Atualizado em 01/Maio/2013 </h3>
-        </hgroup>
-    </header>
-<div id="tv-audio">
-    <audio id="musica"  controls="controls">
-        <source src="_media/2009-lovers-carvings-bibio.mp3" type="audio/mpeg"/>
-        Desculpe, mas não foi possível carregar o audio! <!--Caso o navegador seja antigo, para não ficar sem nada, 
-        coloca-se essa msg para pelo menos mostrar ao usuário-->
-    </audio>
-    <video id="filme" controls poster="_imagens/video-mini03.jpg"> <!-- pode ficar sem o ="controls"-->
-        <source src="_media/getting-started.mp4" type="video/mp4"/>
-    </video>
-</div>
-</article>
+        <header id="cabecalho-artigo">
+            <hgroup>
+                <h3> Glass > Multimídia </h3>
+                <h1> Sons e Vídeos </h1>
+                <h2> por Gustavo Guanabara </h2>
+                <h3 class="direita"> Atualizado em 01/Maio/2013 </h3>
+            </hgroup>
+        </header>
+
+        <div id="tv-audio">
+
+            <audio id="musica"  controls="controls">
+                <source src="_media/2009-lovers-carvings-bibio.mp3" type="audio/mpeg"/>
+                Desculpe, mas não foi possível carregar o audio! <!--Caso o navegador seja antigo, para não ficar sem nada, 
+                coloca-se essa msg para pelo menos mostrar ao usuário-->
+            </audio>
+
+            <video id="filme" controls poster="_imagens/video-mini03.jpg"> <!-- pode ficar sem o ="controls"-->
+                <source src="_media/getting-started.mp4" type="video/mp4"/>
+            </video>
+
+        </div>
+        
+    </article>
 </section> 
 <footer id="rodapeh" class="media_rodapeh">
     <p> 2013 - by Gustavo Guanabara </p>
