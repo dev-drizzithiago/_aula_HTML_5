@@ -51,14 +51,18 @@
     Qualquer ponto vermelho vai te levar a um lugar cheio de novas informações.</p>
 
 <section id="conteudo">
-    <img id="formatacao" src="_imagens/glass-esquema-marcado.jpg" height="280" width="500" alt="glass esquema marcado" usemap="meu_mapa"/> <!-- opção para mapear-->
+    <img id="formatacao" src="_imagens/glass-esquema-marcado.jpg" height="280" width="500" alt="glass esquema marcado" usemap="#meu_mapa"/> 
+    <!-- opção para mapear | Foi preciso colocar o "#" para funcionar-->
+
     <map name="meu_mapa">
-        <area shape="rect" coords="180,200,270,260" href="google-glass.html#tela" alt="tela" target="janela"/>  
-        <area shape="poly" coords="28,143,83,216,84,249,27,169" href="google-glass.html#sensores" alt="sensores" target="janela"/>
+        <area shape="rect" coords="180,200,270,260" href="google-glass.html#tela" alt="tela" target="janela"/>        
         <area shape="circle" coords="157,242,12" href="google-glass.html#camera" alt="camera" target="janela"/>
         <area shape="circle" coords="73,52,12" href="google-glass.html#gadgets" alt="bateria" target="janela"/>
+        <area shape="poly" coords="28,143,83,216,84,249,27,169" href="google-glass.html#sensores" alt="sensores" target="janela"/>
     </map>
+
     <iframe src="google-glass.html" name="janela" id="frame-spec"></iframe>
+
 </section>                 
 </article>
 </section>
