@@ -265,3 +265,17 @@ footer#rodapeh p {
     padding: 0px;
     border: 1px #606060;
 }
+div#index_video_1, div#index_video_2 {
+    height: auto;
+    width: auto;
+}
+
+div#index_video_1 video#mini_video_1 {
+    width: auto;
+    height: 282px;  
+}
+
+div#index_video_2 video#mini_video_2 {
+    width: auto;
+    height: 240px;
+}
